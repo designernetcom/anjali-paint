@@ -345,11 +345,7 @@ ul {
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 480px) {
-  .strength-man {
-    display: none;
-  }
-}
+
 /* .section-heading .sub-heading .left-shape {
   background-color: #dc2c1d;
   height: 13px;
@@ -4026,8 +4022,8 @@ START: Header CSS
   margin-bottom: 50px;
 }
 .hero-content-2 .hero-btn {
-  background-color: var(--bz-color-common-white);
-  color: #dc2c1d;
+  background-color: #de3c2e;
+  color: #ffffff;
 }
 .hero-content-2 .hero-btn:hover {
   color: var(--bz-color-common-white);
@@ -7375,7 +7371,7 @@ START: Contact CSS
   color: var(--bz-color-heading-primary);
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 40px;
 }
 .sponsor-text-wrap span {
@@ -8612,7 +8608,7 @@ START: Theme Slider CSS
   z-index: 1;
 }
 .slider-item .slide-img-wrap {
-  height: 860px;
+  /* height: 860px; */
 }
 @media only screen and (max-width: 1024px) {
   .about-content .about-items {
@@ -8632,12 +8628,12 @@ START: Theme Slider CSS
 }
 @media only screen and (max-width: 992px) {
   .slider-item .slide-img-wrap {
-    height: 700px;
+    /* height: 700px; */
   }
 }
 @media only screen and (max-width: 767px) {
   .slider-item .slide-img-wrap {
-    height: 600px;
+    height: 400px;
   }
 }
 .slider-item .slide-img-wrap img {
@@ -10605,8 +10601,8 @@ START: Footer CSS
 .footer-widget .footer-list li a {
   font-family: var(--bz-ff-body);
   color: var(--bz-color-common-white);
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  /* font-weight: 500; */
   line-height: 1;
   position: relative;
   padding-left: 30px;
@@ -10854,4 +10850,49 @@ START: Footer CSS
 }
 .about-content-2 .about-items .about-item .icon img{
   width: 50px;
+}
+@media only screen and (max-width: 480px) {
+  .strength-man {
+    display: none;
+  }
+  .header .primary-header-inner .header-right-wrap .header-right .sidebar-icon {
+    background-color: #dc2c1d !important;
+    height: 35px;
+    width: 35px;
+  }
+  .header .primary-header-inner .header-right-wrap .header-right .sidebar-icon .sidebar-trigger span {
+    background-color: var(--bz-color-common-white);
+    width: 16px;
+    height: 0.7px;
+  }
+  .img1{
+    order: 2;
+  }
+  .img2{
+    order: 1;
+  }
+  .about-content {
+    padding-left: 0;
+    margin-top: 0px !important;
+    margin-bottom: 50px;
+  }
+  .pb-120 {
+    padding-bottom: 75px !important;
+  }
+  .bz-primary-btn {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+  .about-content-2 .about-items .about-item .icon img{
+    width: 40px;
+  }
+  .hero-content-2 p {
+    color: var(--bz-color-common-white);
+    max-width: 520px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .mb-30 {
+    margin-bottom: 20px;
+  }
 }
