@@ -897,7 +897,7 @@
                 const scrollValue = Math.round((scrollTopPos / calcHeight) * 100);
                 const scrollElementWrap = $("#scroll-percentage");
 
-                scrollElementWrap.css("background", `conic-gradient( #dc2c1d ${scrollValue}%, var(--bz-color-common-white) ${scrollValue}%)`);
+                scrollElementWrap.css("background", `conic-gradient( #dc2c1d ${scrollValue}%,#d7d7d7 ${scrollValue}%)`);
                 
                 // ScrollProgress
                 if ( scrollTopPos > 100 ) {
