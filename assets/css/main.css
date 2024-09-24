@@ -2417,9 +2417,10 @@ ul {
 }
 /** Buttons CSS */
 .bz-primary-btn {
+  letter-spacing: 1px;
   background-color: #dc2c1d;
   font-family: var(--bz-ff-heading);
-  color:#d7d7d7;
+  color:#fff;
   display: inline-flex;
   align-items: center;
   font-size: 15px;
@@ -2885,7 +2886,7 @@ START: Header CSS
   color: var(--bz-color-heading-primary);
   font-weight: 600;
   font-size: 14px;
-  padding: 6px 0;
+  padding: 10px 0;
   padding-left: 22px;
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -9887,7 +9888,7 @@ blockquote .content .author span {
   position: relative;
 }
 .blog-contact-form .request-form .form-item .form-control {
-  background-color:#d7d7d7;
+  background-color:#fff;
   color: var(--bz-color-text-body);
   font-size: 16px;
   font-weight: 400;
