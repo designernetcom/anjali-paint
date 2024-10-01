@@ -4320,6 +4320,7 @@ START: Header CSS
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
 }
 .about-img-wrap-2 .about-counter .title {
   font-family: var(--bz-ff-heading);
@@ -4342,6 +4343,7 @@ START: Header CSS
   height: 100%;
   width: 100%;
   object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
 }
 .about-img-wrap-2 .about-images .about-img.img-1 {
   top: 0;
@@ -4349,6 +4351,7 @@ START: Header CSS
   max-width: 410px;
   width: 100%;
   height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 5px;
 }
 .about-img-wrap-2 .about-images .about-img.img-2 {
   max-width: 170px;
@@ -5226,7 +5229,7 @@ START: Header CSS
 .content-box {
   max-width: 795px;
   background-color:#fff;
-  padding: 50px 60px;
+  padding: 50px 58px;
   border-radius: 50px 0 50px 0;
   margin-left: auto;
 }
@@ -5258,6 +5261,7 @@ START: Header CSS
   font-size: 14px;
   font-weight: 600;
   padding: 12px 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 5px;
 }
 .content-tab .nav-tabs .nav-link.active {
   background-color: #dc2c1d;
@@ -10948,6 +10952,7 @@ START: Footer CSS
   .strength-man {
     display: none;
   }
+  
   .header .primary-header-inner .header-right-wrap .header-right .sidebar-icon {
     background-color: #dc2c1d !important;
     height: 35px;
@@ -11082,4 +11087,35 @@ START: Footer CSS
    
     width: 160px;
   }
+}
+.vbox-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  z-index: 20;
+  max-height: 100%;
+  padding: 20px 26%;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .vbox-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    z-index: 20;
+    max-height: 100%;
+    padding: 40px 8%;
+}
 }
