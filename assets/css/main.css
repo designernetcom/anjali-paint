@@ -2340,7 +2340,7 @@ ul {
 #scroll-percentage-value {
   height: calc(100% - 6px);
   width: calc(100% - 6px);
-  background-color:#d7d7d7;
+  background-color:#fff;
   color: #dc2c1d;
   border-radius: 50%;
   display: grid;
@@ -2916,23 +2916,23 @@ START: Header CSS
   border-color: transparent;
 }
 .header .primary-header-inner .header-menu-wrap ul li li:hover a {
-  color:#d7d7d7;
+  color:#fff;
 }
 .header .primary-header-inner .header-menu-wrap ul li li ul {
   top: 0;
   left: 100%;
 }
 .header .primary-header-inner .header-menu-wrap ul li li ul li a {
-  color:#d7d7d7;
+  color:#fff;
 }
 .header .primary-header-inner .header-menu-wrap ul li li:hover a {
-  color:#d7d7d7;
+  color:#fff;
 }
 .header .primary-header-inner .header-menu-wrap ul li li:hover li a {
   color: var(--bz-color-heading-primary);
 }
 .header .primary-header-inner .header-menu-wrap ul li li:hover li a:hover {
-  color:#d7d7d7;
+  color:#fff;
 }
 .header .primary-header-inner .header-menu-wrap ul li.active a {
   color: #dc2c1d;
@@ -2941,7 +2941,7 @@ START: Header CSS
   color: var(--bz-color-heading-primary);
 }
 .header .primary-header-inner .header-menu-wrap ul li.active ul li:hover a {
-  color:#d7d7d7;
+  color:#fff;
 }
 .header .primary-header-inner .header-right-wrap .header-right {
   display: flex;
@@ -4275,7 +4275,7 @@ START: Header CSS
   margin-bottom: 22px;
 }
 .about-content-2 .about-items .about-item .icon {
-  background:#d7d7d7;
+  background:#fff;
   border: 1px solid #E5E9F5;
   box-shadow: 0px 13px 26px rgba(20, 18, 33, 0.07);
   height: 70px;
@@ -4323,7 +4323,7 @@ START: Header CSS
 }
 .about-img-wrap-2 .about-counter .title {
   font-family: var(--bz-ff-heading);
-  color:#d7d7d7;
+  color:#ffffff;
   display: flex;
   align-items: center;
   margin-bottom: 0;
@@ -4332,7 +4332,7 @@ START: Header CSS
   font-family: inherit;
 }
 .about-img-wrap-2 .about-counter p {
-  color:#d7d7d7;
+  color:#ffffff;
   margin-bottom: 0;
   line-height: 1.2;
 }
@@ -5249,7 +5249,7 @@ START: Header CSS
   row-gap: 15px;
 }
 .content-tab .nav-tabs .nav-link {
-  font-family: var(--bz-ff-heading);
+  /* font-family: var(--bz-ff-heading); */
   background-color: #ededed;
   color: var(--bz-color-heading-primary);
   border-radius: 5px;
@@ -7106,7 +7106,7 @@ START: Contact CSS
   padding: 40px 50px;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 8px;
 }
 @media only screen and (max-width: 767px) {
   .contact-content {
@@ -7135,7 +7135,7 @@ START: Contact CSS
 .contact-content .contact-list .list-item:not(:last-of-type) {
   margin-bottom: 25px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #DADFEC;
+  border-bottom: 1px solid #cbcbcb;
 }
 @media only screen and (max-width: 767px) {
   .contact-content .contact-list .list-item {
@@ -7177,7 +7177,7 @@ START: Contact CSS
 }
 .contact-content .contact-list .list-item:hover .icon {
   background-color: #dc2c1d;
-  color:#d7d7d7;
+  color:#fff;
 }
 
 .contact-wrap {
@@ -7621,7 +7621,7 @@ START: Contact CSS
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
 }
 .service-process-card:before {
   background-color: #dc2c1d;
@@ -7647,7 +7647,7 @@ START: Contact CSS
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#d7d7d7;
+  color:#fff;
   font-size: 16px;
   font-weight: 700;
   border-radius: 50%;
@@ -7687,7 +7687,7 @@ START: Contact CSS
 }
 .service-process-card:hover .title,
 .service-process-card:hover p {
-  color:#d7d7d7;
+  color:#ededed;
 }
 
 /* !END: Process CSS */
@@ -8400,12 +8400,14 @@ START: Contact CSS
   font-family: inherit;
   line-height: 1;
   margin-top: 4px;
+  padding-right: 5px;
 }
 .strength-content .strength-items .strength-item p {
-  font-family: var(--bz-ff-heading);
+  /* font-family: var(--bz-ff-heading); */
   color:#d7d7d7;
-  text-transform: uppercase;
-  font-size: 14px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
@@ -9174,7 +9176,7 @@ START: Sidebar CSS
   overflow: scroll;
   visibility: hidden;
   transition: all 0.5s ease-in-out;
-  padding: 60px 40px;
+  padding: 30px 40px;
 }
 
 .open-sidebar .sidebar-area {
@@ -9185,8 +9187,8 @@ START: Sidebar CSS
 
 .sidebar-trigger.close {
   position: absolute;
-  right: 56px;
-  top: 63px;
+  right: 45px;
+  top: 30px;
   color: #dc2c1d;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -9404,7 +9406,7 @@ START: Sidebar CSS
 .side-menu-list li i {
   background-color: #dc2c1d;
   font-size: 12px;
-  color:#d7d7d7;
+  color:#fff;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -9449,7 +9451,7 @@ START: Sidebar CSS
 .side-menu-social li a {
   background-color: #dc2c1d;
   font-size: 17px;
-  color:#d7d7d7;
+  color:#efefef;
   height: 40px;
   width: 40px;
   display: flex;
@@ -9867,7 +9869,7 @@ blockquote .content .author span {
   background-color: var(--bz-color-grey-4);
   padding: 35px 40px;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 8px;
 }
 @media only screen and (max-width: 767px) {
   .blog-contact-form {
@@ -9898,6 +9900,7 @@ blockquote .content .author span {
   border-radius: 0;
   margin-bottom: 19px;
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 3px;
 }
 .blog-contact-form .request-form .form-item .form-control::-webkit-input-placeholder {
   color: var(--bz-color-text-body);
@@ -10594,8 +10597,8 @@ START: Footer CSS
   margin-right: 10px;
 }
 .footer-widget .footer-social li a {
-  background-color:#d7d7d7;
-  font-size: 16px;
+  background-color:#ffffff;
+  font-size: 19px;
   color: var(--bz-color-heading-primary);
   height: 45px;
   width: 45px;
@@ -10617,7 +10620,7 @@ START: Footer CSS
 .footer-widget .footer-list li a {
   font-family: var(--bz-ff-body);
   color:#d7d7d7;
-  font-size: 17px;
+  font-size: 16px;
   /* font-weight: 500; */
   line-height: 1;
   position: relative;
@@ -10716,7 +10719,7 @@ START: Footer CSS
 }
 
 .copyright-content {
-  padding: 20px 0;
+  padding: 12px 0;
   position: relative;
   z-index: 1;
   align-items: center;
@@ -10866,7 +10869,7 @@ START: Footer CSS
     font-size: 15px;
 }
 .about-content-2 .about-items .about-item .icon img{
-  width: 50px;
+  width: 44px;
 }
 
 .project-section .bz-primary-btn {
@@ -11032,7 +11035,7 @@ START: Footer CSS
   margin-top: 10px;
 }
 .product-page .content-tab .nav-tabs .nav-link {
-  font-family: var(--bz-ff-heading);
+  /* font-family: var(--bz-ff-heading); */
   background-color: #ededed;
   color: var(--bz-color-heading-primary);
   border-radius: 5px;
@@ -11042,10 +11045,12 @@ START: Footer CSS
   font-weight: 600;
   padding: 12px 30px;
   width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 4px;
 }
 .product-page .content-tab .nav-tabs .nav-link.active {
   background-color: #dc2c1d;
   color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 4px;
 }
 .product-page .speci-data{
   margin-top: 30px;
